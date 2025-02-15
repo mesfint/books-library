@@ -1,6 +1,6 @@
-# Library Management System API
+# Books Library Management System API
 
-A modern, TypeScript-based library management system built with the MERN stack (MongoDB, Express, React, Node.js).
+A TypeScript-based books-library management system built with the MERN stack (MongoDB, Express, React, Node.js).
 
 ## 🚀 Features
 
@@ -140,7 +140,7 @@ docker run -p 3000:3000 books-library
 
 ## 👥 Authors
 
-- Mesfin T - Initial work - [mesfint](https://github.com/mesfint)
+- Mesfin T - [mesfint](https://github.com/mesfint)
 
 
 
