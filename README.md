@@ -12,8 +12,8 @@ A modern, TypeScript-based library management system built with the MERN stack (
 - **Book Management**
   - CRUD operations for books
   - Search & filter functionality
-  - Borrowing system
-  - Review system
+  - Borrowing books
+  - Review books
 
 - **User Management**
   - User registration and profile management
@@ -24,7 +24,7 @@ A modern, TypeScript-based library management system built with the MERN stack (
   - User management
   - Book inventory management
   - Author management
-  - System monitoring
+  
 
 ## 🛠️ Tech Stack
 
@@ -53,7 +53,7 @@ A modern, TypeScript-based library management system built with the MERN stack (
 - Node.js (v16 or higher)
 - MongoDB (v4.4 or higher)
 - Docker (optional)
-- npm or yarn
+- pnpm 
 
 ## 🔧 Installation
 
@@ -61,31 +61,31 @@ A modern, TypeScript-based library management system built with the MERN stack (
 
 ```bash
 git clone https://github.com/mesfint/books-library.git
-cd library-management
+cd books-library
 
 ```
 
 2. **Install dependencies**
 
-```bash
 Install backend dependencies
+```bash
 pnpm install
 
 ```
 
 3. **Environment Variables**
-```bash
 Copy the example env file
+```bash
 cp .env.example .env
-Update the variables in .env with your values
+#Update the variables in .env with your values
 
 ```
 
 4. **Start the application**
 ```bash
 pnpm dev
----
-Start frontend (in another terminal)
+
+#Start frontend (in another terminal)
 cd client
 pnpm dev
 
@@ -135,20 +135,12 @@ docker build -t books-library .
 docker run -p 3000:3000 books-library
 ```
 
-## 📦 Available Scripts
-
-- `npm run dev` - Start development server
-- `npm run build` - Build for production
-- `npm start` - Start production server
-- `npm test` - Run tests
-- `npm run lint` - Run ESLint
-- `npm run format` - Format code with Prettier
 
 
 
 ## 👥 Authors
 
-- Your Name - Initial work - [mesfint](https://github.com/mesfint)
+- Mesfin T - Initial work - [mesfint](https://github.com/mesfint)
 
 
 
